@@ -1,0 +1,42 @@
+html{
+    background-image: url('https://wallpaperaccess.com/full/3136965.jpg');
+    /* background-image: url('https://i.pinimg.com/originals/c5/0e/b6/c50eb6346cf40cbab89043214746360c.jpg'); */
+    background-size: cover;
+    background-repeat: Y;
+    height: 100%;
+    background-attachment:fixed;
+    background-position: left top;
+}
+
+.contenedorRespuestas {
+    background-color: rgb(234, 223, 177);
+    height: 270px;
+    margin: 20px;
+    border: 2px solid;
+    /*position:relative;
+    float:center;*/
+}
+
+body { 
+    padding-top: 3em;
+    max-width: 40em;
+    margin: auto;
+    font-family: Consolas, 'Lucida Console', Verdana;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    color: rgb(0, 87, 114);
+}
+
+h2 {
+    color: rgb(173, 100, 26);
+}
+h3 {
+    color: rgb(169, 61, 50);   
+}
+
+:placeholder-shown{
+    width: 50%;
+}
