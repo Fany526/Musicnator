@@ -1,0 +1,186 @@
+let instrumentos = [{
+    "nombre": "Violonchelo",
+    "tipo_instru": "cuerda",
+    "pesado": true,
+    "sonido_ext": true,
+    "uso_arco": true
+}, {
+    "nombre": "Arpa",
+    "tipo_instru": "cuerda",
+    "pesado": true,
+    "sonido_ext": true,
+    "uso_arco": false
+}, {
+    "nombre": "Piano vertical",
+    "tipo_instru": "cuerda",
+    "pesado": true,
+    "sonido_ext": false,
+    "rectangular": true
+}, {
+    "nombre": "Piano de cola",
+    "tipo_instru": "cuerda",
+    "pesado": true,
+    "sonido_ext": false,
+    "rectangular": false
+}, {
+    "nombre": "Guitalele",
+    "tipo_instru": "cuerda",
+    "pesado": false,
+    "cuerdas_S": true,
+    "hibrido": true
+}, {
+    "nombre": "Guitarra acústica",
+    "tipo_instru": "cuerda",
+    "pesado": false,
+    "cuerdas_S": true,
+    "hibrido": false
+}, {
+    "nombre": "Violín",
+    "tipo_instru": "cuerda",
+    "pesado": false,
+    "cuerdas_S": false,
+    "uso_arco": true
+}, {
+    "nombre": "Ukulele",
+    "tipo_instru": "cuerda",
+    "pesado": false,
+    "cuerdas_S": false,
+    "uso_arco": false
+}, {
+    "nombre": "Batería",
+    "tipo_instru": "percusion",
+    "membrana": true,
+    "uso_baquetas": true,
+    "conjunto_otros": true
+}, {
+    "nombre": "Tambor",
+    "tipo_instru": "percusion",
+    "membrana": true,
+    "uso_baquetas": true,
+    "conjunto_otros": false
+}, {
+    "nombre": "Bongos",
+    "tipo_instru": "percusion",
+    "membrana": true,
+    "uso_baquetas": false,
+    "juego_tambores": true
+}, {
+    "nombre": "Yembé",
+    "tipo_instru": "percusion",
+    "membrana": true,
+    "uso_baquetas": false,
+    "juego_tambores": false
+}, {
+    "nombre": "Aros pandereta",
+    "tipo_instru": "percusion",
+    "membrana": false,
+    "sacudido": true,
+    "marco": true
+}, {
+    "nombre": "Maracas",
+    "tipo_instru": "percusion",
+    "membrana": false,
+    "sacudido": true,
+    "marco": false
+}, {
+    "nombre": "Triángulo",
+    "tipo_instru": "percusion",
+    "membrana": false,
+    "sacudido": false,
+    "barra_trg": true
+}, {
+    "nombre": "Xilófono",
+    "tipo_instru": "percusion",
+    "membrana": false,
+    "sacudido": false,
+    "barra_trg": false
+}, {
+    "nombre": "Flauta transversal",
+    "tipo_instru": "viento",
+    "madera": true,
+    "flauta": true,
+    "longitudMy": true
+}, {
+    "nombre": "Flautín",
+    "tipo_instru": "viento",
+    "madera": true,
+    "flauta": true,
+    "longitudMy": false,
+    "sonidoAgudo": true
+}, {
+    "nombre": "Flauta dulce",
+    "tipo_instru": "viento",
+    "madera": true,
+    "flauta": true,
+    "longitudMy": false,
+    "sonidoAgudo": false
+}, {
+    "nombre": "Fagot",
+    "tipo_instru": "viento",
+    "madera": true,
+    "flauta": false,
+    "lenguaDoble": true,
+    "cilindrico": true
+}, {
+    "nombre": "Oboe",
+    "tipo_instru": "viento",
+    "madera": true,
+    "flauta": false,
+    "lenguaDoble": true,
+    "cilindrico": false
+}, {
+    "nombre": "Saxofón",
+    "tipo_instru": "viento",
+    "madera": true,
+    "flauta": false,
+    "lenguaDoble": false,
+    "conico": true
+}, {
+    "nombre": "Clarinete",
+    "tipo_instru": "viento",
+    "madera": true,
+    "flauta": false,
+    "lenguaDoble": false,
+    "conico": false
+}, {
+    "nombre": "Trompeta",
+    "tipo_instru": "viento",
+    "madera": false,
+    "ovalado": true,
+    "longitudMn": true,
+    "peque": true
+}, {
+    "nombre": "Corneta",
+    "tipo_instru": "viento",
+    "madera": false,
+    "ovalado": true,
+    "longitudMn": true,
+    "peque": false
+}, {
+    "tipo_instru": "viento",
+    "madera": false,
+    "ovalado": true,
+    "longitudMn": false,
+    "mayor": true,
+    "nombre": "Tuba"
+}, {
+    "tipo_instru": "viento",
+    "madera": false,
+    "ovalado": true,
+    "longitudMn": false,
+    "mayor": false,
+    "nombre": "Sousafón"
+}, {
+    "nombre": "Trombón",
+    "tipo_instru": "viento",
+    "madera": false,
+    "ovalado": false,
+    "vara": true
+}, {
+    "nombre": "Trompa / corno francés",
+    "tipo_instru": "viento",
+    "madera": false,
+    "ovalado": false,
+    "vara": false
+}];
+module.exports = instrumentos;
